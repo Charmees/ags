@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ee_ut_ags_domain_SimulationResult" object="${simulationresult}" path="/simulationresults" z="AievacLxLzPyglNlPsiKPMjwn84=">
+        <field:display field="something" id="s_ee_ut_ags_domain_SimulationResult_something" object="${simulationresult}" z="7tynVRck7UIkukZ8nDusUSY4BQM="/>
+        <field:display calendar="true" dateTimePattern="${simulationResult_endtime_date_format}" field="endTime" id="s_ee_ut_ags_domain_SimulationResult_endTime" object="${simulationresult}" z="2PjNYIfi0KmvXResroJK8W6erzU="/>
+    </page:show>
+</div>
